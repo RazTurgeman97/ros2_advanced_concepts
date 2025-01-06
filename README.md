@@ -33,3 +33,13 @@ The course is divided into four main sections:
 - Master intermediate and advanced ROS 2 concepts.  
 - Build and run projects demonstrating Actions, Lifecycle Nodes, Executors, and Components.  
 - Understand best practices and apply them in real-world robotics applications.
+
+## 📝 Key Learnings and Challenges
+
+Each section includes challenges and projects to solidify the concepts. I’ll document key takeaways and solutions as I progress through the course.
+
+## 🔗 Useful Resources
+
+- [ROS 2 Documentation](https://docs.ros.org/en/rolling/index.html)  
+- [Course Link: Master ROS 2 Intermediate and Advanced Concepts](https://www.udemy.com/share/10a9sW3@ngSbge0WQZi5hMKjzL1fj8HTvfjpBDtLIp1pJfT7xy7j58mxcYmWBd5Q37hSarxrMw==/)  
+
