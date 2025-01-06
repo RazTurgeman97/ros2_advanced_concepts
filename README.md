@@ -40,6 +40,7 @@ Each section includes challenges and projects to solidify the concepts. I’ll d
 
 ## 🔗 Useful Resources
 
-- [ROS 2 Documentation](https://docs.ros.org/en/rolling/index.html)  
+- [ROS 2 Humble Documentation](https://docs.ros.org/en/humble/index.html)  
 - [Course Link: Master ROS 2 Intermediate and Advanced Concepts](https://www.udemy.com/share/10a9sW3@ngSbge0WQZi5hMKjzL1fj8HTvfjpBDtLIp1pJfT7xy7j58mxcYmWBd5Q37hSarxrMw==/)  
+
 
