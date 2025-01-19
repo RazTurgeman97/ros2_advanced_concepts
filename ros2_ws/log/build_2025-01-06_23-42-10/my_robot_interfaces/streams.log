@@ -1,0 +1,236 @@
+[0.016s] Invoking command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/ros2_advanced_concepts/ros2_ws/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.391s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.429s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.445s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.914s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.750s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.750s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.750s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.750s]   the cmake_policy command to set the policy and suppress this warning.
+[1.750s] 
+[1.750s] Call Stack (most recent call first):
+[1.750s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.750s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.750s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.750s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.750s] [0m
+[1.769s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.772s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.772s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.772s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.772s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.772s]   the cmake_policy command to set the policy and suppress this warning.
+[1.772s] 
+[1.772s] Call Stack (most recent call first):
+[1.772s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.772s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.772s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.772s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.772s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.772s] [0m
+[1.790s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.790s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.790s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.790s]   the cmake_policy command to set the policy and suppress this warning.
+[1.790s] 
+[1.791s] Call Stack (most recent call first):
+[1.791s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.791s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.791s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.791s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.791s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.791s] [0m
+[1.797s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.797s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.797s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.797s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.815s] -- Found PythonExtra: .so  
+[1.870s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.893s] -- Added test 'lint_cmake' to check CMake code style
+[1.894s] -- Added test 'xmllint' to check XML markup files
+[1.898s] -- Configuring done (1.9s)
+[1.925s] -- Generating done (0.0s)
+[1.935s] -- Build files have been written to: /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces
+[1.941s] Invoked command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/ros2_advanced_concepts/ros2_ws/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces
+[1.942s] Invoking command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces -- -j12 -l12
+[1.953s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.956s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.957s] [  6%] Built target ament_cmake_python_symlink_my_robot_interfaces
+[2.161s] running egg_info
+[2.181s] creating my_robot_interfaces.egg-info
+[2.181s] writing my_robot_interfaces.egg-info/PKG-INFO
+[2.181s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[2.182s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[2.182s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.239s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.240s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.255s] [  6%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[2.313s] [  9%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__functions.c.o[0m
+[2.314s] [  9%] Built target my_robot_interfaces__cpp
+[2.317s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.317s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.317s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.405s] [ 22%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[2.422s] [ 22%] Built target my_robot_interfaces__rosidl_generator_c
+[2.425s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.425s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.425s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.569s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[2.612s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/count_until__type_support.cpp.o[0m
+[2.654s] [ 41%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o[0m
+[2.672s] [ 45%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[2.703s] [ 48%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[2.724s] [ 48%] Built target my_robot_interfaces__rosidl_typesupport_c
+[2.745s] [ 51%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__type_support.c.o[0m
+[2.758s] [ 54%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/count_until__type_support_c.cpp.o[0m
+[2.777s] [ 58%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.790s] [ 58%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[2.945s] [ 61%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.967s] [ 61%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[3.049s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.074s] [ 67%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.086s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.101s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[3.128s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[3.138s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.143s] [ 70%] Built target my_robot_interfaces
+[3.149s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.733s] [ 74%] Built target my_robot_interfaces__py
+[3.738s] [ 77%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c.o[0m
+[3.834s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so[0m
+[3.854s] [ 80%] Built target my_robot_interfaces__rosidl_generator_py
+[3.859s] [ 83%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.859s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.859s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.945s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.945s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.945s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.965s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.965s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.965s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[3.968s] Invoked command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces -- -j12 -l12
+[3.971s] Invoking command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces
+[3.972s] -- Install configuration: ""
+[3.972s] -- Execute custom install script
+[3.973s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[3.974s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.h
+[3.976s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__functions.h
+[3.977s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.h
+[3.979s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.h
+[3.980s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.982s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[3.983s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[3.985s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h
+[3.986s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.988s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h
+[3.989s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.991s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.hpp
+[3.992s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__builder.hpp
+[3.993s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.hpp
+[3.995s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__traits.hpp
+[3.996s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.hpp
+[3.997s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.999s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
+[4.000s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.002s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp
+[4.003s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[4.005s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[4.006s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.008s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.009s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.010s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.012s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[4.014s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[4.015s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.016s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.018s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py
+[4.019s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_count_until.py
+[4.021s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_count_until_s.c
+[4.022s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[4.023s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.025s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.026s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.028s] -- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.028s] -- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.028s] -- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.028s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.idl
+[4.030s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.action
+[4.031s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[4.033s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[4.034s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[4.035s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[4.037s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[4.038s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[4.040s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[4.041s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[4.043s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[4.044s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[4.046s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[4.047s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[4.049s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.050s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.052s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.053s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.055s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.056s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.057s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.059s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[4.060s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[4.062s] -- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[4.063s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[4.063s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[4.063s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.064s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.064s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[4.064s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.064s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[4.064s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[4.064s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.064s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.064s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.065s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.065s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[4.065s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.097s] Listing '/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[4.098s] Compiling '/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[4.098s] Listing '/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action'...
+[4.098s] Compiling '/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py'...
+[4.098s] Compiling '/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_count_until.py'...
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[4.101s] -- Set runtime path of "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[4.101s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[4.102s] -- Installing: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.104s] Invoked command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/my_robot_interfaces

@@ -1,0 +1,23 @@
+[0.683s] Invoking command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py': PYTHONPATH=/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/build --no-deps symlink_data
+[0.994s] running develop
+[1.227s] running egg_info
+[1.244s] creating actions_py.egg-info
+[1.245s] writing actions_py.egg-info/PKG-INFO
+[1.245s] writing dependency_links to actions_py.egg-info/dependency_links.txt
+[1.245s] writing entry points to actions_py.egg-info/entry_points.txt
+[1.246s] writing requirements to actions_py.egg-info/requires.txt
+[1.246s] writing top-level names to actions_py.egg-info/top_level.txt
+[1.246s] writing manifest file 'actions_py.egg-info/SOURCES.txt'
+[1.281s] reading manifest file 'actions_py.egg-info/SOURCES.txt'
+[1.281s] writing manifest file 'actions_py.egg-info/SOURCES.txt'
+[1.306s] running build_ext
+[1.306s] Creating /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[1.307s] Installing count_until_client script to /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/actions_py
+[1.307s] Installing count_until_server script to /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/actions_py
+[1.307s] 
+[1.307s] Installed /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py
+[1.307s] running symlink_data
+[1.308s] creating /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/share/ament_index/resource_index/packages
+[1.308s] symbolically linking /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/resource/actions_py -> /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/share/ament_index/resource_index/packages
+[1.308s] symbolically linking /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/package.xml -> /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/share/actions_py
+[1.330s] Invoked command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py' returned '0': PYTHONPATH=/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/build --no-deps symlink_data

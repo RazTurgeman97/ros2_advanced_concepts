@@ -1,0 +1,18 @@
+[0.701s] Invoking command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py': PYTHONPATH=/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/build --no-deps symlink_data
+[1.020s] running develop
+[1.270s] running egg_info
+[1.290s] writing actions_py.egg-info/PKG-INFO
+[1.290s] writing dependency_links to actions_py.egg-info/dependency_links.txt
+[1.291s] writing entry points to actions_py.egg-info/entry_points.txt
+[1.291s] writing requirements to actions_py.egg-info/requires.txt
+[1.291s] writing top-level names to actions_py.egg-info/top_level.txt
+[1.331s] reading manifest file 'actions_py.egg-info/SOURCES.txt'
+[1.332s] writing manifest file 'actions_py.egg-info/SOURCES.txt'
+[1.359s] running build_ext
+[1.360s] Creating /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[1.360s] Installing count_until_client script to /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/actions_py
+[1.360s] Installing count_until_server script to /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/actions_py
+[1.361s] 
+[1.361s] Installed /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py
+[1.361s] running symlink_data
+[1.385s] Invoked command in '/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py' returned '0': PYTHONPATH=/home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/ros2_advanced_concepts/ros2_ws/build/actions_py/build --no-deps symlink_data
