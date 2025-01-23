@@ -1,0 +1,8 @@
+[01m[K/home/raz/projects/ros2_advanced_concepts/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:[m[K In member function ‘[01m[Kvoid CountUntilServerNode::run_goal_queue_thread()[m[K’:
+[01m[K/home/raz/projects/ros2_advanced_concepts/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:91:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   91 |             if (next_goal){[01;31m[K.[m[Kget_logger(), "Executing next goal in queue."
+      |                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/count_until_server_queue_goals.dir/build.make:76: CMakeFiles/count_until_server_queue_goals.dir/src/count_until_server_queue_goals.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/count_until_server_queue_goals.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

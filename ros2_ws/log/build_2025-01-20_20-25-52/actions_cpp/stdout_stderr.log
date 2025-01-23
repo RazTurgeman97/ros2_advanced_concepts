@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[01m[K/home/raz/projects/ros2_advanced_concepts/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse CountUntilServerNode::cancel_callback(std::shared_ptr<const rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::CountUntil> >)[m[K’:
+[01m[K/home/raz/projects/ros2_advanced_concepts/ros2_ws/src/actions_cpp/src/count_until_server.cpp:35:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 |     rclcpp_action::CancelResponse cancel_callback([01;35m[Kconst std::shared_ptr<const CountUntilGoalHandle> goal_handle[m[K)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable count_until_server[0m
+[100%] Built target count_until_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/lib/actions_cpp//count_until_server
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.sh
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.bash
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.sh
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.dsv
+-- Symlinking: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/package.dsv
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+-- Up-to-date symlink: /home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_cpp/share/actions_cpp/package.xml
